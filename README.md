@@ -26,3 +26,5 @@ The project consists of two main parts:
    - The system allows the user to exit the application by pressing the 'q' key.
 
 The project combines deep learning techniques with computer vision to address the important task of face mask detection. It can be applied in various settings, such as public spaces, workplaces, and healthcare facilities, to help ensure adherence to face mask policies and promote public health and safety.
+
+![alt text](https://github.com/raghavan93513/Salary-Analysis-and-Prediction/blob/main/Screenshots/bar.jpg)   
