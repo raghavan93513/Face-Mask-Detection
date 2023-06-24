@@ -1,7 +1,7 @@
 # Face-Mask-Detection
 
 ### Description:
-The project aims to detect whether a person is wearing a face mask or not using a saved file or in real-time using computer vision techniques and a pre-trained **ResNet50 model**. The system captures video frames from a webcam, applies face detection to locate faces in the frames, and then utilizes a deep learning model to classify each detected face as either wearing a mask or not.
+The project aims to detect whether a person is wearing a face mask or not using a saved file or in real-time using PyTorch. A pre-trained **ResNet50 model** is used in this project. The system captures video frames from a webcam, applies face detection to locate faces in the frames, and then utilizes a deep learning model to classify each detected face as either wearing a mask or not.
 
 ### Requirements:
 torch==2.0.1+cu118 <br>
@@ -13,7 +13,7 @@ Pillow==9.4.0 <br>
 matplotlib==3.6.3 <br>
 tensorflow==2.12.0
 <br>
-### For the Dataset and Trained model:- <br>
+### For downloading the Dataset and Trained model (.pt file) :- <br>
 https://www.kaggle.com/datasets/raghavanvaidhyaraman/face-mask-detection-project
 <br>
 ## Two parts of the project:
