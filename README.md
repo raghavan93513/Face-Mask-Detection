@@ -25,7 +25,18 @@ The project consists of two main parts:
 The project combines deep learning techniques with computer vision to address the important task of face mask detection. It can be applied in various settings, such as public spaces, workplaces, and healthcare facilities, to help ensure adherence to face mask policies and promote public health and safety.
 
 ## Output Screenshots:
-
+### Face Mask Detection either using File Path:
+**Path with mask:** <br>
+![alt text](https://github.com/raghavan93513/Face-Mask-Detection/blob/main/SampleImages/path1.png)
+<br>
+![alt text](https://github.com/raghavan93513/Face-Mask-Detection/blob/main/SampleImages/path2.png)
+<br> <br>
+**Path without mask:** <br>
+![alt text](https://github.com/raghavan93513/Face-Mask-Detection/blob/main/SampleImages/path3.png)
+<br>
+![alt text](https://github.com/raghavan93513/Face-Mask-Detection/blob/main/SampleImages/path4.png)
+<br> <br> <br>
+### Real Time Face Mask Detection (Front Camera):
 **With mask:** <br>
 ![alt text](https://github.com/raghavan93513/Face-Mask-Detection/blob/main/SampleImages/Screenshot2.png)
 <br> <br>
