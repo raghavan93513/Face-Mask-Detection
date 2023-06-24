@@ -11,18 +11,21 @@ numpy==1.23.5 <br>
 opencv-python==4.7.0.72 <br>
 Pillow==9.4.0 <br>
 matplotlib==3.6.3 <br>
-tensorflow==2.12.0 <br>
+tensorflow==2.12.0
+<br>
+### For the Dataset and Trained model:- <br>
+https://www.kaggle.com/datasets/raghavanvaidhyaraman/face-mask-detection-project
+<br>
+## Two parts of the project:
 
-### The project consists of two main parts:
-
-## Training the Face Mask Detection Model:
+### Training the Face Mask Detection Model:
    - The project starts with training a face mask detection model using a pre-trained ResNet model.
    - A dataset of 530 images is used for training, validating, and testing the model.
    - The pre-trained ResNet model, specifically ResNet-50, is employed as a feature extractor, and the final fully connected layer is modified to have two output neurons representing mask and no-mask classes.
    - The model is trained using the dataset, and the training process involves optimizing the model's parameters using an Adam optimizer and and the metric used is cross-entropy loss.
    - After training, the model is saved to as a .pt file for later use during real-time face mask detection.
 
-## Face Mask Detection either using File Path or Real Time Detection (Front Camera):
+### Face Mask Detection either using File Path or Real Time Detection (Front Camera):
    - Once the model is trained and saved we can use it for face mask detection.
    - This project can do facemask detection on a saved image just by giving the file path as input.
    - The project mainly focuses on real-time face mask detection using OpenCV.
