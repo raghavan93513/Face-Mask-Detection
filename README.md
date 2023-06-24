@@ -1,7 +1,7 @@
 # Face-Mask-Detection
 
 ### Description:
-The project aims to detect whether a person is wearing a face mask or not in real-time using computer vision techniques and a pre-trained **ResNet50 model**. The system captures video frames from a webcam, applies face detection to locate faces in the frames, and then utilizes a deep learning model to classify each detected face as either wearing a mask or not.
+The project aims to detect whether a person is wearing a face mask or not using a saved file or in real-time using computer vision techniques and a pre-trained **ResNet50 model**. The system captures video frames from a webcam, applies face detection to locate faces in the frames, and then utilizes a deep learning model to classify each detected face as either wearing a mask or not.
 
 ### Requirements:
 torch==2.0.1+cu118 <br>
