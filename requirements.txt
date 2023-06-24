@@ -1,0 +1,8 @@
+torch==2.0.1+cu118
+torchvision==0.9.1+cu118
+mtcnn==0.1.1
+numpy==1.23.5
+opencv-python==4.7.0.72
+Pillow==9.4.0
+matplotlib==3.6.3
+tensorflow==2.12.0
